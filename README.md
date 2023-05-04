@@ -20,4 +20,4 @@ Aqui estão alguns dos meus projetos mais recentes:
 
 ## Contato
 
-Você pode entrar em contato comigo pelo [LinkedIn](https://www.linkedin.com/in/icaromoura/) ou pelo meu [site pessoal](https://www.icaromoura.com.br/).
+Você pode entrar em contato comigo pelo [LinkedIn](https://www.linkedin.com/in/mythirfm/) ou pelo meu [site pessoal - em desenvolvimento](https://www.icaromoura.com.br/).
