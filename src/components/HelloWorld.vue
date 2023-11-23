@@ -29,18 +29,88 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  h1 {
+    font-weight: normal;
+  }
+
+  a {
+    color: #42b983;
+  }
+
+  a:hover, a:focus {
+    color: #3b8070;
+  }
+
+  .projects {
+    margin-top: 40px;
+  }
+
+  .projects > div {
+    margin-bottom: 40px;
+  }
+
+  .projects > div:last-child {
+    margin-bottom: 0;
+  }
+
+  .projects h2 {
+    margin-bottom: 5px;
+  }
+
+  .projects p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .projects a {
+    font-size: 14px;
+  }
+
+  .projects a:hover, .projects a:focus {
+    text-decoration: none;
+  }
+
+  .projects .view-all {
+    margin-top: 20px;
+  }
+
+  .projects .view-all a {
+    font-size: 16px;
+  }
+
+  .projects .view-all a:hover, .projects .view-all a:focus {
+    text-decoration: underline;
+  }
+
+  .projects .view-all a i {
+    margin-left: 5px;
+  }
+
+  .projects .view-all a:hover i, .projects .view-all a:focus i {
+    color: #3b8070;
+  }
+
+  .projects .view-all a i.fa {
+    font-size: 14px;
+  }
+
+  .projects .view-all a:hover i.fa, .projects .view-all a:focus i.fa {
+    color: #3b8070;
+  }
+
+  .projects .view-all a i.fas {
+    font-size: 12px;
+  }
+
+  .projects .view-all a:hover i.fas, .projects .view-all a:focus i.fas {
+    color: #3b8070;
+  }
+
+  .projects .view-all a i.far {
+    font-size: 14px;
+  }
+
+  .projects .view-all a:hover i.far, .projects .view-all a:focus i.far {
+    color: #3b8070;
+  }
 </style>
