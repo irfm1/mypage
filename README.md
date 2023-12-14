@@ -5,11 +5,11 @@
 
 - 🌱 I’m currently learning **Flask** and **Next.js**
 
-- 👨‍💻 All of my projects are available at [folio.icaromoura.com](folio.icaromoura.com)
+- 👨‍💻 All of my projects are available at [icaromoura](icaromoura.com.br)
 
 - 📫 How to reach me **mythirfm@gmail.com**
 
-- 📄 Know about my experiences [resume.icaromoura.com](resume.icaromoura.com)
+- 📄 Know about my experiences [icaromoura](icaromoura.com.br)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
