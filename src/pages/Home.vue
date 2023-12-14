@@ -11,7 +11,7 @@
 import { mapState } from 'vuex';
 
 export default {
-    name: 'home',
+    name: 'Home-page',
     computed: {
         ... mapState({
             count: state => state.count,

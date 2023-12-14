@@ -1,23 +1,44 @@
 <template>
   <Navbar />
-  <HelloWorld/>
-  
+  <div class=" m-5 pt-5"> 
+    <div class="row">
+      <div class="col-3">
+        <SkillsBar />
+        
+      </div>
+      <div class="col-9">
+        <about-page />
+      </div>
+    </div>
+     
+  </div>
+ 
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AboutPage from './components/AboutPage.vue'
 import Navbar from './components/Navbar.vue'
+import SkillsBar from './components/SkillsBar.vue';
+
 
 
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    AboutPage,
     Navbar,
+    SkillsBar,
 
-  }
-}
+  },
+  data() {
+    return {
+      selectedSkill: 'Frontend',
+    };
+  },
+
+};
 </script>
 
 <style>
