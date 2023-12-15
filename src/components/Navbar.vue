@@ -8,7 +8,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
-      <ul class="navbar-nav">
+      <!-- <ul class="navbar-nav">
         <li class="nav-item">
           <a to="/" class="nav-link">Home</a>
         </li>
@@ -21,7 +21,8 @@
         <li class="nav-item">
           <a to="/contact" class="nav-link">Contact</a>
         </li>
-      </ul>
+      </ul> -->
+      <span>Under Construction...🚜</span>
     </div>
     <div class="d-flex justify-content-end me-3">
       <div :class="{ 'dark-mode': darkMode, 'card-container': true }">

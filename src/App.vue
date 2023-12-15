@@ -8,8 +8,11 @@
       </div>
       <div class="col-9">
         <about-page />
+        <ProBonoRequest/>
       </div>
     </div>
+
+
      
   </div>
  
@@ -20,6 +23,7 @@
 import AboutPage from './components/AboutPage.vue'
 import Navbar from './components/Navbar.vue'
 import SkillsBar from './components/SkillsBar.vue';
+import ProBonoRequest from './components/ProBonoRequest.vue';
 
 
 
@@ -30,6 +34,7 @@ export default {
     AboutPage,
     Navbar,
     SkillsBar,
+    ProBonoRequest
 
   },
   data() {
