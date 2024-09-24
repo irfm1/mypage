@@ -5,65 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ícaro Moura - Full-Stack Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="bg-gray-100 text-gray-900">
+
     <!-- Navigation -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <header class="bg-gray-800 text-white py-4 fixed w-full top-0 z-50">
+        <nav class="container mx-auto flex justify-center">
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="hover:text-yellow-400 transition" data-nav>About</a></li>
+                <li><a href="#services" class="hover:text-yellow-400 transition" data-nav>Skills</a></li>
+                <li><a href="#contact" class="hover:text-yellow-400 transition" data-nav>Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- About Section -->
-    <section id="about">
-        <h1>About Me</h1>
-        <p>Olá, sou um desenvolvedor de software full-stack experiente do Brasil. Atualmente, estou aproveitando minhas
-            habilidades no mercado freelance.</p>
-        <p>Como um ávido defensor de projetos de código aberto, estou sempre em busca de desafios inovadores que
-            ultrapassem os limites da tecnologia.</p>
-        <p>Embora eu esteja sempre ansioso para aprender e me adaptar a novas tecnologias, tenho uma experiência
-            enraizada no Laravel, que aprimorei ao longo dos anos.</p>
-        <p>Sinta-se à vontade para entrar em contato se tiver algum projeto intrigante, sugestões perspicazes ou
-            simplesmente desejar se conectar. Bom desenvolvimento!</p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="services">
-        <h1>My Skills</h1>
-        <p>Here are some of my key skills:</p>
-        <ul>
-            <li>Full-stack Development</li>
-            <li>Laravel Framework</li>
-            <li>Open-source Contributions</li>
-            <li>API Development and Integration</li>
-            <li>Database Management</li>
-        </ul>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h1>Contact Me</h1>
-        <p>Email: <a href="mailto:mythirfm@gmail.com">mythirfm@gmail.com</a></p>
-        <p>Phone: <a href="tel:+5582988288586">+55 82 98828 8586</a></p>
-        <p>Social Media:</p>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/mythirfm/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/irfm1" target="_blank">GitHub</a></li>
-            <li><a href="https://www.instagram.com/icaro.rfmoura" target="_blank">Instagram</a></li>
-        </ul>
-    </section>
+    <!-- Main Content (SPA) -->
+    <main class="pt-16 container mx-auto px-4" id="content">
+        <!-- Initial Content will be dynamically loaded here -->
+    </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="bg-gray-800 text-white text-center py-4">
         <p>&copy; 2024 Ícaro Moura. All rights reserved.</p>
     </footer>
 
-    <!-- JavaScript for smooth scrolling -->
+    <!-- JavaScript for SPA Navigation -->
     <script src="js/scripts.js"></script>
 </body>
 </html>
