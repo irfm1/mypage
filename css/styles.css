@@ -2,18 +2,21 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Full viewport height */
 }
 
-/* Main content will grow to fill available space */
+/* Main content centering */
 main {
-    flex: 1; /* This allows the main content to grow and push the footer down */
+    flex: 1; /* Allow main content to grow */
+    display: flex; /* Apply Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: calc(100vh - 64px); /* Adjust for the header height */
 }
 
-/* Footer Styling - now fixed to bottom */
+/* Footer Styling - Fixed to bottom */
 footer {
     background: #333;
     color: #fff;
